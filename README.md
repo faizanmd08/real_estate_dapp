@@ -10,7 +10,6 @@ A decentralized application for real estate transactions, leveraging Ethereum bl
 - [Smart Contracts](#smart-contracts)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 
 ## Introduction
 
@@ -97,15 +96,3 @@ The application includes two primary contracts:
 
 5. **Finalize Sale:**
    - Once all approvals are complete, ownership of the NFT transfers to the buyer, and the seller receives the funds.
-
-## Project Structure
-
-.
-├── contracts # Solidity smart contracts
-│ ├── Escrow.sol # Handles escrow process
-│ └── RealEstate.sol # Manages property NFTs
-├── scripts # Deployment and interaction scripts
-├── test # Unit tests for smart contracts
-├── frontend # Frontend code (React app)
-├── README.md
-└── hardhat.config.js # Hardhat configuration
