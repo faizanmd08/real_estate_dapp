@@ -76,6 +76,7 @@ describe("Escrow", () => {
 
     it("Returns Buyer", async () => {
       const result = await escrow.buyer(1);
+      // console.log(result);
       expect(result).to.be.equal(buyer.address);
     });
 
